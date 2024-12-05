@@ -1,0 +1,31 @@
+.ee img {
+  border-radius: 10px;
+  opacity: 0.9;
+  height: auto;
+  transform: scale(1.15);
+  width: 100%;
+  transition: transform 0.5s, opacity 0.5s;
+  transition: 0.5s ease;
+  
+ filter: brightness(60%);
+}
+.ee .col-3 {
+   margin-bottom: 3px !important;
+   border-radius: 10px;
+  width: 24.5% !important;
+  margin: auto;
+  padding: 1px !important;
+  display: inline-block;
+  overflow: hidden; /* لمنع الصورة من الخروج عن الإطار */
+  transition: 0.5s ease;
+}
+.eee {
+  width: 93%;
+  margin: auto;
+}
+.ee img:hover {
+  scale: .9;
+  opacity: 1;
+  overflow: hidden;
+  filter: brightness(90%); /* تقليل السطوع لجعل الصورة غامقة */
+}

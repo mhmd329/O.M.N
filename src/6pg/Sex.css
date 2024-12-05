@@ -1,0 +1,124 @@
+.scsex {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./img/pexels-trang-doan-1092730.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Parallax effect */
+  height: auto;
+  width: 100%;
+  color: white;
+}
+.parent-sx {
+  padding-top: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+.scsex svg {
+  color: white;
+  font-size: 220%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.scsex img {
+  margin-right: 15px;
+  width: 20%;
+  border-radius: 50%;
+}
+.parent-all {
+  width: 31%;
+  padding-top: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.parent-sex {
+  display: flex;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 550;
+}
+.frst {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .scsex h2 {
+    width: 95%;
+    font-size: 130% !important;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .parent-sx {
+    padding-top: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .scsex svg {
+    color: white;
+    font-size: 140% !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .scsex img {
+    margin-right: 12px;
+    width: 14%;
+    border-radius: 50%;
+  }
+  .parent-all {
+    
+    width: 90% ;
+    margin-left: 10px;
+    padding-top: 30px;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+ 
+  .parent-sex {
+    display: flex;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 550;
+  }
+  .frst {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .scsex h2 {
+    width: 95%;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .parent-sx {
+    padding-top: 60px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .scsex svg {
+    color: white;
+    font-size: 200%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .scsex img {
+    margin-right: 15px;
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .parent-sex {
+    display: flex;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 550;
+  }
+  .frst {
+    padding-left: 10px;
+  }
+}

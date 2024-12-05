@@ -1,0 +1,174 @@
+.sceit {
+  padding-top: 50px;
+  color: #555555;
+}
+h2 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 240%;
+  padding-bottom: 30px;
+}
+.awaw {
+  padding-left: 13% !important;
+  text-align: left;
+  padding: 10px;
+  display: grid;
+}
+.awaw label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 7px;
+}
+.tanyn {
+  text-align: left;
+  padding: 10px;
+  width: 66%;
+  margin-left: 20px;
+}
+.check-box input {
+  width: auto !important;
+
+  margin-right: 15px;
+}
+.check-box {
+  text-align: left;
+}
+.tanyn input,
+select,
+textarea {
+  background-color: #fff;
+  outline: none;
+  font-weight: 700;
+  font-size: 18px;
+  width: 70%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+}
+.tanyn textarea {
+  border: #555555 1px solid;
+
+  width: 200px; /* العرض الافتراضي */
+  height: 100px; /* الطول الافتراضي */
+  resize: both; /* السماح بالتحكم في العرض والارتفاع */
+  overflow: auto; /* إضافة شريط تمرير عند الحاجة */
+}
+
+@media (max-width: 767px) {
+  .sceit h2 {
+    width: 95%;
+    font-size: 150% !important;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .sceit .awaw {
+  padding-left: 23px !important;
+    text-align: left;
+   padding: 3px;
+  }
+
+  .awaw label {
+     
+    font-size: 15px !important;
+    font-weight: 500;
+  }
+  .sceit .tanyn {
+    text-align: left;
+
+    padding: 3px;
+   
+  }
+  .check-box input {
+    width: auto !important;
+
+    margin-right: 15px;
+  }
+  .check-box {
+    text-align: left;
+  }
+  .tanyn input,
+  select,
+  textarea {
+    background-color: #fff;
+    outline: none;
+    font-weight: 700;
+    font-size: 12px !important;
+    width: 90% !important;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid #ccc !important;
+    margin: 0px !important;
+  }
+  .tanyn textarea {
+    border: #555555 1px solid;
+
+    width: 80%; /* العرض الافتراضي */
+    height: 120px; /* الطول الافتراضي */
+    resize: both; /* السماح بالتحكم في العرض والارتفاع */
+    overflow: auto; /* إضافة شريط تمرير عند الحاجة */
+  }
+}
+@media (max-width: 1024px) {
+  .sceit h2 {
+    width: 95%;
+    font-size: 170%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .awaw {
+    padding-left: 13% !important;
+    text-align: left;
+    padding: 10px;
+    display: grid;
+  }
+  .awaw label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 7px;
+  }
+  .tanyn {
+    text-align: left;
+    padding: 10px;
+    width: 66%;
+    margin-left: 20px;
+  }
+  .check-box input {
+    width: auto !important;
+
+    margin-right: 15px;
+  }
+  .check-box {
+    text-align: left;
+  }
+  .tanyn input,
+  select,
+  textarea {
+    background-color: #fff;
+    outline: none;
+    font-weight: 700;
+    font-size: 18px;
+    width: 70%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+  }
+  .tanyn textarea {
+    border: #555555 1px solid;
+
+    width: 200px; /* العرض الافتراضي */
+    height: 100px; /* الطول الافتراضي */
+    resize: both; /* السماح بالتحكم في العرض والارتفاع */
+    overflow: auto; /* إضافة شريط تمرير عند الحاجة */
+  }
+}

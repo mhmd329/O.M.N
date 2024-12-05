@@ -1,0 +1,115 @@
+footer{
+    background-color: #333;
+}
+.foter-nav a{
+    display: block;
+    text-decoration: none;
+    color:#888888 ;
+    padding: 10px;
+   
+}
+
+.f-c a{
+    padding-top: 28px;
+    padding-bottom: 15px;
+    transition: .2s ;
+}
+.f-c a:hover{
+    color: #fff;
+}
+.f-ls {
+    
+    display: flex;
+    flex-flow: row-reverse;
+    text-align: right;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+.f-ls a{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.icon4{
+margin-right: 26px;
+}
+.fot{
+    color:#888888 ;
+    padding: 5px;
+    text-align: center;
+}
+.icon1:hover{
+    transition: .3s;
+    color: rgb(54, 54, 244) ;
+}
+.icon2:hover{
+    transition: .3s;
+    color: #1DA1F2;
+}
+.icon3:hover{
+    transition: .3s;
+    color: rgb(238, 75, 75);
+}
+.icon4:hover{
+    transition: .3s;
+    color: rgb(78, 78, 217) ;
+}
+
+
+
+@media (max-width: 778px) {
+    .foter-nav {
+        display: inline-block;
+        text-decoration: none;
+        color:#888888 ;
+        padding: 3px;
+    }
+    
+    .f-c a{
+        padding-top: 20px;
+        padding-bottom: 0px;
+        transition: .2s ;
+    }
+    .f-c a:hover{
+        color: #fff;
+    }
+    .f-ls {
+        
+        display: flex;
+        flex-flow: row-reverse;
+        text-align: right;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .f-ls a{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .icon4{
+    margin-right: 20px;
+    }
+    .fot{
+        color:#888888 ;
+       text-align: center;
+       width: 70% !important;
+       margin: auto;
+       padding-bottom: 7px;
+        font-size: small;
+    }
+    .icon1:hover{
+        transition: .3s;
+        color: rgb(54, 54, 244) ;
+    }
+    .icon2:hover{
+        transition: .3s;
+        color: #1DA1F2;
+    }
+    .icon3:hover{
+        transition: .3s;
+        color: rgb(238, 75, 75);
+    }
+    .icon4:hover{
+        transition: .3s;
+        color: rgb(78, 78, 217) ;
+    }
+   
+  }
