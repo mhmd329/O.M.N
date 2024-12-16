@@ -2,11 +2,10 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden; /* يمنع السحب الأفقي */
 }
-.row{
+.row {
   max-width: 1140px;
- margin: auto !important;
+  margin: auto !important;
 }
 .App-logo {
   height: 40vmin;
@@ -33,4 +32,3 @@
 .App-link {
   color: #61dafb;
 }
-
